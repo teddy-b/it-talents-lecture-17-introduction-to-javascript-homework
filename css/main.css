@@ -1,0 +1,182 @@
+@CHARSET "UTF-8";
+
+body,
+div,
+header,
+nav,
+section,
+ul,
+li,
+a,
+p,
+figure,
+img,
+table,
+thead,
+tbody,
+tr,
+th,
+td,
+input,
+select,
+option,
+textarea,
+button,
+label {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: black;
+	font-family: 'Arial', sans-serif;
+	font-size: 16px;
+}
+
+body {
+	background-color: steelblue;
+}
+
+#container {
+	width: 1170px;
+	margin: 10px auto;
+	padding: 1%;
+	background-color: paleturquoise;
+	border-radius: 5px;
+}
+
+header, 
+section,
+nav {
+	margin: 1%;
+	padding: 1%;
+	border-radius: 5px;
+	background-color: turquoise;
+}
+
+li {
+	list-style-type: none;
+	display: inline-block;
+	border-radius: 5px;
+	background-color: steelblue;
+}
+
+li:hover {
+	background-color: royalblue;
+}
+
+a {
+	text-decoration: none;
+}
+
+nav a {
+	display: inline-block;
+	padding: 10px;
+}
+
+nav a:hover {
+	color: white;
+}
+
+section a {
+	color: gray;
+}
+
+section a:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+h2 {
+	padding: 1%;
+	border-radius: 5px;
+	background-color: steelblue;
+}
+
+label,
+textarea {
+	display: block;
+}
+
+input, 
+select, 
+textarea, 
+button {
+	margin: 5px;
+	padding: 2px;
+	border-radius: 5px;
+}
+
+label {
+	margin: 5px;
+}
+
+button {
+	background-color: steelblue;
+	padding: 5px;
+}
+
+button:hover {
+	background-color: royalblue;
+	color: white;
+}
+
+img {
+	width: 100%;
+	border-radius: 5px;
+}
+
+#randomImg {
+	width: 640px;
+	height: 480px;
+}
+
+#randomImg img {
+	width: 640px;
+}
+
+#gallery section {
+	position: relative;
+	min-heigth: 800px;
+}
+
+#gallery figure {
+	width: 20%;
+	margin: 2%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+th, td {
+	padding: 5px;
+}
+
+th {
+	background-color: steelblue;
+}
+
+th:first-child {
+	border-radius: 5px 0 0 0;
+}
+
+th:last-child {
+	border-radius: 0 5px 0 0;
+}
+
+tr:nth-child(2n) {
+	background-color: steelblue;
+}
+
+tr:nth-child(2n+1) {
+	background-color: paleturquoise;
+}
+
+tr:last-child td:first-child {
+	border-radius: 0 0 0 5px;
+}
+
+tr:last-child td:last-child {
+	border-radius: 0 0 5px 0;
+}
+
+#other {
+	visibility: hidden;
+}

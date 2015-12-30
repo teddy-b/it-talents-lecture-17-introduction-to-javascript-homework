@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Introduction to JavaScript</title>
+		<link rel="stylesheet" href="css/main.css" />
+	</head>
+	<body>
+		<div id="container">
+			<header>
+				<h1>Лекция 17. Въведение в JavaScript</h1>
+			</header>
+			<div id="main">
+				<section>
+					<div>
+						<h2>Задача 1:</h2>
+						<p>Напишете JavaScript програма, която по даден array да показва най-често срещания символ.</p>
+					</div>
+					<form method="post" action="" onsubmit="return false;">
+						<div>
+							<h3>Пример:</h3>
+							<p>var arr1 = [3, 'a', 'a', 'a', 2, 3, 'a', 3, 'a', 2, 4, 9, 3];</p>
+							<p>Резултат: a(5 times)</p>
+							<button type="submit" id="example1">Пример</button>
+						</div>
+						<div>
+							<h3>Решение:</h3>
+							<div>
+								<label for="input1">Въведете няколко символа, разделени със запетая:</label>
+								<input type="text" id="input1" />
+							</div>
+							<div>
+								<button type="submit" id="submit1">Покажи</button>
+								<button type="reset">Изчисти</button>
+							</div>
+							<div>
+								<label for="output1">Отговор:</label>
+								<textarea name="output1" id="output1" cols="30" rows="2"></textarea>
+							</div>
+						</div>
+					</form>
+				</section>
+				<section>
+					<div>
+						<h2>Задача 2:</h2>
+						<p>Напишете JavaScript, който да връща броя на anchors (&lt;а&gt;) в HTML документ.</p>
+					</div>
+					<div>
+						<h3>Решение:</h3>
+						<form method="post" action="" onsubmit="return false;">
+							<div>
+								<button type="submit" id="submit2">Покажи</button>
+								<button type="reset">Изчисти</button>
+							</div>
+							<div>
+								<label for="output2">Отговор:</label>
+								<textarea name="output2" id="output2" cols="30" rows="2"></textarea>
+							</div>
+						</form>
+					</div>
+				</section>
+				<section>
+					<div>
+						<h2>Задача 3:</h2>
+						<p>Напишете JavaScript, който да изкарава popup с innerHTML на елемент по дадено id.</p>
+					</div>
+					<div>
+						<h3>Решение:</h3>
+						<form method="post" action="" onsubmit="return false;">
+							<button type="submit" id="example3">Пример</button>
+							<div>
+								<label for="input3">ID на HTML елемент:</label>
+								<input type="text" id="input3" />
+							</div>
+							<div>
+								<button type="submit" id="submit3">Покажи</button>
+								<button type="reset">Изчисти</button>
+							</div>
+						</form>
+					</div>
+				</section>
+				<section>
+					<div>
+						<h2>Задача 4:</h2>
+						<p>Напишете JavaScript, който да връща innerHTML на първия anchor в HTML документ.</p>
+					</div>
+					<div>
+						<h3>Решение:</h3>
+						<form method="post" action="" onsubmit="return false;">
+							<div>
+								<button type="submit" id="submit4">Покажи</button>
+								<button type="reset">Изчисти</button>
+							</div>
+							<div>
+								<label for="">Отговор:</label>
+								<textarea name="output4" id="output4" cols="30" rows="2"></textarea>
+							</div>
+						</form>
+					</div>
+				</section>
+				<section>
+					<div>
+						<h2>Задача 5:</h2>
+						<p>Напишете JavaScript функция, която смята обема на сфера по подаден радиус.</p>
+					</div>
+					<div>
+						<h3>Решение:</h3>
+						<form method="post" action="" onsubmit="return false;">
+							<div>
+								<label for="input5">Радиус:</label>
+								<input type="text" id="input5" />
+							</div>
+							<div>
+								<button type="submit" id="submit5">Покажи</button>
+								<button type="reset">Изчисти</button>
+							</div>
+							<div>
+								<label for="output5">Обем:</label>
+								<textarea name="output5" id="output5" cols="30" rows="2"></textarea>
+							</div>
+						</form>
+					</div>
+				</section>
+				<section>
+					<div>
+						<h2>Задача 6:</h2>
+						<p>Напишете JavaScript функция, която показва случайна снимка при всяко едно отваряне на страницата.</p>
+					</div>
+					<div>
+						<h3>Решение:</h3>
+						<figure id="randomImg"></figure>
+					</div>
+				</section>
+				<section>
+					<div>
+						<h2>Задача 7:</h2>
+						<p>Напише JavaScript функционалност, която конвертира от kg в lb и обратно.</p>
+						<p>1kg = 2.20462262 lb</p>
+					</div>
+					<div>
+						<h3>Решение:</h3>
+						<form method="post" action="" onsubmit="return false;">
+							<button type="submit" id="example7">Пример</button>
+							<div>
+								<label for="input7">Конвертирай:</label>
+								<input type="text" id="input7" />
+								<select id="unit">
+									<option value="kg">kg</option>
+									<option value="lb">lb</option>
+								</select>
+							</div>
+							<button type="submit" id="submit7">Покажи</button>
+							<div>
+								<label for="output7">Отговор:</label>
+								<textarea name="output7" id="output7" cols="30" rows="2"></textarea>
+							</div>
+						</form>
+					</div>
+				</section>
+				<section>
+					<div>
+						<h2>Задача 8:</h2>
+						<p>Напишете JavaScript функция, която да добавя редове към таблица.Тествайте върху HTML документ.</p>
+					</div>
+					<div>
+						<h3>Решение:</h3>
+						<table>
+							<thead>
+								<tr>
+									<th>No.</th>
+									<th>Technology</th>
+									<th>Level</th>
+								</tr>
+							</thead>
+							<tbody id="techTbody">
+								<tr class="techRow">
+									<td>1</td>
+									<td>HTML</td>
+									<td>Intermediate</td>
+								</tr>
+								<tr class="techRow">
+									<td>2</td>
+									<td>PHP</td>
+									<td>Beginner</td>
+								</tr>
+								<tr class="techRow">
+									<td>3</td>
+									<td>Algorithms</td>
+									<td>Intermediate</td>
+								</tr>
+								<tr class="techRow">
+									<td>4</td>
+									<td>CSS</td>
+									<td>Intermediate</td>
+								</tr>
+								<tr class="techRow">
+									<td>5</td>
+									<td>C#</td>
+									<td>Intermediate</td>
+								</tr>
+								<tr class="techRow">
+									<td>6</td>
+									<td>JavaScript</td>
+									<td>Intermediate</td>
+								</tr>
+							</tbody>
+						</table>
+						<form method="post" action="" onsubmit="return false;">
+							<div>
+								<label for="technology">Добави:</label>
+								<input type="text" id="technology" placeholder="Technology" />
+								<select id="level">
+									<option value="Beginner">Beginner</option>
+									<option value="Intermediate">Intermediate</option>
+									<option value="Advanced">Advanced</option>
+								</select>
+							</div>
+							<div>
+								<button type="submit" id="submit8">Добави</button>
+								<button type="reset">Изчисти</button>
+							</div>
+						</form>
+					</div>
+				</section>
+				<section>
+					<div>
+						<h2>Задача 9:</h2>
+						<p>Направете страница, в която има албум с малки снимки и при слагане на мишка върху някоя снимка да се показва по-голяма снимка на малката. При махане на мишката от снимката да се скрива голямата снимка.</p>
+					</div>
+					<div>
+						<h3>Решение:</h3>
+						<p><a href="gallery.html">Отиди на страницата</a></p>
+					</div>
+				</section>
+				<section>
+					<div>
+						<h2>Задача 10:</h2>
+						<p>Направете валидация на формата за регистрация. Ако потребителя не е въвел някое поле направете го червено и до него напишете съобщение. Когато потребителя въведе полето да се махна червеното. Когато потребителя избере държава other да му се показва още едно поле да изпише държавата, от която е.</p>
+					</div>
+					<div>
+						<h3>Решение:</h3>
+						<form method="post" action="" onsubmit="return false;" id="regform">
+							<div>
+								<label for="username">Потребителско име:</label>
+								<input type="text" id="username" />
+							</div>
+							<div>
+								<label for="email">Имейл:</label>
+								<input type="email" id="email" />
+							</div>
+							<div>
+								<label for="country">Държава:</label>
+								<select name="country" id="country">
+									<option value="bg">България</option>
+									<option value="other">Друга</option>
+								</select>
+								<input type="text" id="other" />
+							</div>
+							<div>
+								<label for="password">Парола:</label>
+								<input type="password" id="password" />
+							</div>
+							<div>
+								<label for="repeat">Повтори парола:</label>
+								<input type="password" id="repeat" />
+							</div>
+							<div>
+								<button type="submit" id="submit10">Регистрирай</button>
+								<button type="reset">Изчисти</button>
+							</div>
+						</form>
+					</div>
+				</section>
+			</div>
+		</div>
+		<script src="js/main.js"></script>
+	</body>
+</html>
